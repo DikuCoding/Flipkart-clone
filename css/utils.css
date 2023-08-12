@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
 }
+.flex-all-center p{
+  font-size: 1.3em;
+}
 .btn{
     padding: 3px 6px;
     color: black;
@@ -12,4 +15,13 @@
 }
 .center{
     text-align: center;
+}
+@media(max-width:800px){
+    .flex-all-center{
+        justify-content: space-between;
+    }
+    .flex-all-center p{
+        margin-left: 57px;
+        font-size: 1.7em;
+      }
 }
